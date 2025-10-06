@@ -8,9 +8,11 @@ Nombre del Proyecto
 -Jireth Sirley Cubides Cubides
 -Nicol Sofia Martinez Cruz
 -Juan Sebastian Morales Murcia
-•	Curso / Grupo:
+•	Curso / Grupo: A 
 •	Fecha de entrega:
 •	Profesor:
+-Pablo Enrique Carreño Hernandez
+
 3. Título del Proyecto
 Un título claro y conciso que refleje la naturaleza del proyecto.
 4. Descripción del Proyecto
