@@ -1,7 +1,7 @@
 Proyecto de clase de Python aplicado.
 Fundamentos de Programación
 
-Recomendación de peliculas
+RECOMENDACIÓN DE PELICULAS
 1. Información General
 •	Nombre estudiantes:
 -Juan David Castañeda Alarcon
@@ -13,8 +13,8 @@ Recomendación de peliculas
 •	Profesor:
 -Pablo Enrique Carreño Hernandez
 
-3. Recomendación de peliculas
-4. Descripción del Proyecto sdadsadsaadsadsadsa
+3. RECOMENDACIÓN DE PELICULAS
+4. Descripción del Proyecto
 Breve resumen del proyecto, incluyendo:
 •	Propósito o problema que resuelve
 •	Público objetivo o aplicación práctica
