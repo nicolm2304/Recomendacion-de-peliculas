@@ -1,7 +1,7 @@
 Proyecto de clase de Python aplicado.
 Fundamentos de Programación
 
-Nombre del Proyecto
+Recomendación de peliculas
 1. Información General
 •	Nombre estudiantes:
 -Juan David Castañeda Alarcon
