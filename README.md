@@ -10,11 +10,10 @@ Nombre del Proyecto
 -Juan Sebastian Morales Murcia
 •	Curso / Grupo: A 
 •	Fecha de entrega: 16/Octubre/2025
-•	Profesor: Pablo Enrique Carreño Hernandez
+•	Profesor:
 -Pablo Enrique Carreño Hernandez
 
-3. Título del Proyecto
-Un título claro y conciso que refleje la naturaleza del proyecto.
+3. Recomendación de peliculas
 4. Descripción del Proyecto
 Breve resumen del proyecto, incluyendo:
 •	Propósito o problema que resuelve
