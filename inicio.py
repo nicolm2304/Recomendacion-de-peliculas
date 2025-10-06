@@ -7,3 +7,11 @@ import pandas as pd # Import Pandas
 metadata = pd.read_csv('movies_metadata.csv', low_memory=False) # Load Movies Metadata
 
 metadata.head(3) # Print the first three rows
+
+# Calcular el porcentaje de votacion
+C = metadata['vote_average'].mean()
+print(C)
+
+# Calcular el minimo de votos necesarios para crear la tabla, m
+m = metadata['vote_count'].quantile(0.90)
+print(m)
