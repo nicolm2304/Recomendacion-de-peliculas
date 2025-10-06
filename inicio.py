@@ -29,3 +29,12 @@ q_movies = metadata.copy().loc[metadata['vote_count'] >= m]
 q_movies.shape
 
 metadata.shape
+
+# Definir la nueva categoria 'score' y calcular su valor con la funcion `weighted_rating()`
+q_movies['score'] = q_movies.apply(weighted_rating, axis=1)
+
+#sortear las peliculas basadas en los resultados anteriores
+q_movies = q_movies.sort_values('score', ascending=False)
+
+#se imprimen las mejores 15 peliculas
+q_movies[['title', 'vote_count', 'vote_average', 'score']].head(20)
