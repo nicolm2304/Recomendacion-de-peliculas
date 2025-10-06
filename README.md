@@ -9,8 +9,8 @@ Nombre del Proyecto
 -Nicol Sofia Martinez Cruz
 -Juan Sebastian Morales Murcia
 •	Curso / Grupo: A 
-•	Fecha de entrega:
-•	Profesor:
+•	Fecha de entrega: 16/Octubre/2025
+•	Profesor: Pablo Enrique Carreño Hernandez
 -Pablo Enrique Carreño Hernandez
 
 3. Título del Proyecto
