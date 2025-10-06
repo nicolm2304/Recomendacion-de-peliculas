@@ -14,7 +14,7 @@ Recomendación de peliculas
 -Pablo Enrique Carreño Hernandez
 
 3. Recomendación de peliculas
-4. Descripción del Proyecto
+4. Descripción del Proyecto sdadsadsaadsadsadsa
 Breve resumen del proyecto, incluyendo:
 •	Propósito o problema que resuelve
 •	Público objetivo o aplicación práctica
