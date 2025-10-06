@@ -15,3 +15,7 @@ print(C)
 # Calcular el minimo de votos necesarios para crear la tabla, m
 m = metadata['vote_count'].quantile(0.90)
 print(m)
+
+# se filtran todas las peliculas calificadas a una nueva lista/matriz
+q_movies = metadata.copy().loc[metadata['vote_count'] >= m]
+q_movies.shape
