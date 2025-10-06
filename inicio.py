@@ -1,4 +1,4 @@
-codigo que recomienda peliculas
+#codigo que recomienda peliculas
 #este es un archivo de python
 #keywords.csv, credits.csv,links.csv, links_small.csv, ratings_small.csv,movies_metadata.csv
 # los de ariva son archivos de conjunto de datos de peliculas para las peliculas
