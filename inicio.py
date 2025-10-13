@@ -9,12 +9,6 @@ metadata = pd.read_csv('movies_metadata.csv', low_memory=False)
 # Imprimir las tres primeras lineas
 metadata.head(3)
 
-# Funcion que computa y pesa el puntaje de cada pelicula
-def weighted_rating(x, m=m, C=C):
-    v = x['vote_count']
-    R = x['vote_average']
-    # Calculation based on the IMDB formula
-    return (v/(v+m) * R) + (m/(m+v) * C)
 
 # Calcular el porcentaje de votacion
 C = metadata['vote_average'].mean()
@@ -23,6 +17,13 @@ print(C)
 # Calcular el minimo de votos necesarios para crear la tabla, m
 m = metadata['vote_count'].quantile(0.90)
 print(m)
+
+# Funcion que computa y pesa el puntaje de cada pelicula
+def weighted_rating(x, m=m, C=C):
+    v = x['vote_count']
+    R = x['vote_average']
+    # Calculation based on the IMDB formula
+    return (v/(v+m) * R) + (m/(m+v) * C)
 
 # se filtran todas las peliculas calificadas a una nueva lista/matriz
 q_movies = metadata.copy().loc[metadata['vote_count'] >= m]
