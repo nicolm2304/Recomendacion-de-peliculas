@@ -9,6 +9,12 @@ metadata = pd.read_csv('movies_metadata.csv', low_memory=False)
 # Imprimir las tres primeras lineas
 metadata.head(3)
 
+# Asegurar que las columnas necesarias estén en el tipo de dato correcto
+metadata['vote_average'] = pd.to_numeric(metadata['vote_average'], errors='coerce')
+metadata['vote_count'] = pd.to_numeric(metadata['vote_count'], errors='coerce')
+
+# Eliminar filas con valores nulos en las columnas importantes
+metadata = metadata.dropna(subset=['vote_average', 'vote_count'])
 
 # Calcular el porcentaje de votacion
 C = metadata['vote_average'].mean()
