@@ -38,4 +38,4 @@ q_movies['score'] = q_movies.apply(weighted_rating, axis=1)
 q_movies = q_movies.sort_values('score', ascending=False)
 
 #se imprimen las mejores 15 peliculas
-q_movies[['title', 'vote_count', 'vote_average', 'score']].head(20)
+print(q_movies[['title', 'vote_count', 'vote_average', 'score']].head(20))
